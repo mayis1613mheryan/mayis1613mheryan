@@ -119,6 +119,10 @@
     color: white;
     padding: 2rem 0;
   }
+  .frame-2 .footer a{
+    color:white;
+    text-decoration: none;
+  }
   .frame-2 .info {
     margin: 0 5vw;
   }
