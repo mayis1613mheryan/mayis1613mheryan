@@ -1,0 +1,229 @@
+  body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  .container {
+    border-radius: 0px;
+    margin: 0;
+    align-self: flex-start;
+    width: 100%;
+    height: 100%;
+  }
+  /* Flexbox and Grid Layouts for Responsiveness */
+  .frame-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .frame-2 *{
+    margin: 0;
+  }
+  .frame-2 .header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  .frame-2 .menu {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+  .frame-2 .menu a {
+    margin: 0 1vw;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    text-decoration: none;
+  }
+  .frame-2 .alarex {
+    width: 50%;
+    height: auto;  
+    display: inline-block;
+    float: left;
+  }
+  .frame-2 .alarex img {
+    float: left;
+    width: 1.5vw;
+  }
+  .frame-2 .alarex-construction-company {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/home/mheryan/Desktop/Alarex/main.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-2 .heading {
+    width: 100%;
+    height: 93.1vh;
+    background-color: rgba(90, 90, 90, 0.7);
+    opacity: 70%;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .heading h1{
+    position: relative;
+    top: 20vh;
+    font-size: 9vh;
+  }
+  .heading p{
+    position: relative;
+    top: 18vh;
+    font-size: 3vh;
+  }
+  .frame-2 .line {
+    width: 100%;
+    height: 1px;
+    background-color: #1F2937;
+    margin: 0rem 0;
+  }
+  .frame-2 .about{
+    width: 100%;
+    padding: 2rem;
+  }
+  .frame-2 .img-section {
+    font-size: large;
+    position:relative;
+    bottom:   20vh;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .frame-2 .img-section img {
+    width: 30vw;
+    height: 40vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+  }
+  .frame-2 .alarex-time {
+    margin-top: 5vh;
+  }
+  .frame-2 .alarex-time p{
+    margin-top:2vh;
+  }
+  .frame-2 .footer {
+    width: 100%;
+    position: relative;
+    background-color: #1F2937;
+    color: white;
+    padding: 2rem 0;
+  }
+  .frame-2 .info {
+    margin: 0 5vw;
+  }
+  .frame-2 .map {
+    margin: 2rem 0;
+  }
+  .frame-2 .img1 h3{
+    position: relative;
+    top: 3vh;
+  }
+  .frame-2 .img1 p{
+    position: relative;
+    top:5vh;
+    left: 3vw;
+    width: 25vw;
+  }
+  .frame-2 .img2 h3{
+    position: relative;
+    top: 3vh;
+  }
+  .frame-2 .img3 h3{
+    position: relative;
+    top: 3vh;
+  }
+  .frame-2 .img3 p{
+    position: relative;
+    height: auto;
+    text-align: center;
+    top: 5vh;
+    left : 4vw;
+    width: 25vw;
+  }
+/* Responsive Adjustments */
+@media (max-width: 1028px) {
+  .frame-2 .menu a{
+    font-size: 1.2rem;
+  }
+  .frame-2 .alarex img {
+    width: 7vw;
+  }
+  .frame-2 .img-section {
+    margin-left: 2vw;
+    grid-template-columns: 1fr;
+    width: 80vw;
+    height: auto;
+    text-align: center;
+  }
+  .frame-2 .img-section img {
+    width: 95vw;
+    height: auto;
+    margin-top: 5vh;
+    border-radius: 3px;
+  }
+  .frame-2 .img-section h3 {
+    position: relative;
+    top: 3vh;
+  }
+  .frame-2 .img-section p{
+    left: auto;
+    width: 100%;
+    margin: 1vh 0vh 5vh 0vh; 
+  }
+  .frame-2 .alarex-time{
+    margin-top: 5vh;      
+  }
+  .frame-2 .alarex-time p{
+    position: relative;
+    height: auto;
+    text-align: center;
+    margin: 0vh; 
+  }
+  .frame-2 .footer {
+    width: 100%;
+    background-color: #1F2937;
+    color: white;
+    padding: 2rem 0;
+  }
+  .frame-2 .info {
+    margin: 0 5vw;
+  }
+  .frame-2 .map {
+    margin: 2rem 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .frame-2 .menu a{
+    font-size: 0.8rem; 
+  }
+  .frame-2 .alarex {
+    width: 45%;
+  }
+  .frame-2 .alarex img {
+    width: 5vw;
+  }
+  .frame-2 .img-section {
+    margin-left: 2vw;
+    grid-template-columns: 1fr;
+    width: 80vw;
+    text-align: center;
+  }
+  .frame-2 .img-section img {
+    width: 95vw;
+    height: auto;
+    margin-top: 5vh;
+    border-radius: 3px;
+  }
+}
