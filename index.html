@@ -2,9 +2,8 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Firma Syuzanna</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="main.PNG">
+  <title>Alarex Construction Company</title>
+  <link rel="stylesheet" href="1.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" 
   href=
@@ -13,140 +12,76 @@
 "sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
   crossorigin="anonymous"
   referrerpolicy="no-referrer" />
-  <script>
-    function scrollfunc(){
-      var y = pageYOffset
-      var x = y++
-      
-      document.getElementById('sections').style.position="relative";
-      if(x >= 121){//121 is a value of yOffset above which need position relative.
-        document.getElementById('sections').style.position="fixed";
-        //console.log(x)
-      }
-    }
-    function topFunction() {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
-    window.onload = function () {
-      window.scrollTo(0, 0);
-    }
-  </script>
 </head>
-  <body id="#section1" onscroll="scrollfunc()">
+  <body>
   <div class="frame-2">
     <div class="container">
       <div class="header">
+        <div class="alarex">
+          <img src="logo.png">
+        </div>
         <div class="menu">
-          <div  class="home">
-            <h1>Սյուզաննա</h1>
-            <p>Շինարարական Կազմակերպություն</p>
+          <div class="home">
+            <a href="#section1">Home</a>
           </div>
-          <div class="sections" id="sections">
-            <div class="home1">
-              <a onclick="topFunction()">Գլխավոր</a>
-            </div>
-            <div class="works">
-             <a href="#section2">Աշխատանքներ</a>
-            </div>
-            <div class="workinprocess">
-              <a href="#section3">Կատարվելիք Աշխատանքներ</a>
-            </div>
-            <div class="about-us">
-              <a href="#section4">Մեր մասին</a>
-            </div>
-            <div class="contact1">
-              <a href="#section5">Կապ</a>
-            </div>
+          <div class="about-us">
+            <a href="#section2"> About Us</a>
           </div>
-        </div>  
-      </div>
-      <div class="main" id="section1">
-          <img class="main-img" src="main.PNG">
-      </div>
-      <div id="section2" class="section2">
-        <div class="sc2title">
-          <h3>Կատարված Աշխատանքներ</h3>
-          <p>Townhouses</p>
+          <div class="contact">
+            <a href="#section3"> Contact</a>
+          </div>
         </div>
-        <div class="sc2img">
-          <div><img src="townhouses/IMG_5568.JPG"></div>
-          <div><img src="townhouses/IMG_5587.JPG"></div>
-          <div><img src="townhouses/IMG_5590.JPG"></div>
-        </div>
-        <div class="sc2img2">
-          <p>«Սյուզաննա» ընկերությունը ներկայումս «Բագրևանդ Ռեզիդենս» թաղամասում կառուցում է բարձրահարկ բազմաբնակարան համալիրի ստորգետնյա երկհարկանի երկաթբետոնյա ավտոկայանատեղի։ Այս նախագծի նպատակն է ապահովել բնակիչներին անվտանգ և հարմարավետ ավտոկայանման տարածքներով։ Համալիրը նախագծված է ժամանակակից շինարարական ստանդարտներին համապատասխան և ներառում է նորագույն տեխնոլոգիաներ՝ բարձր որակն ու ամրությունը երաշխավորելու համար։</p>
-          <div>
-            <img src="IMG_5556.JPG">
-            <img src="IMG_5550 (1).JPG">
-            <img src="IMG_5543.JPG">
+      </div>  
+      <div className="main" id="section1">
+        <div class="alarex-construction-company">
+          <div class="heading">
+            <h1>Alarex</h1>
+            <p>construction-company</p>
           </div>
         </div>
       </div>
-      <div class="section3" id="section3">
-        <h3> Կատարվելիք Աշխատանքներ</h3>
-        <div class="sc3img1">
-          <p>«Էլիտար Շին» ՍՊԸ-ի համար նախատեսված է կառուցել շենք Ջրվեժ համայնքի Ջրվեժ 17-րդ փողոց 6/1 հասցեում: </p>
-          <img src="IMG_5668.JPG">
-          <img src="IMG_5660.JPG">          
-        </div>
-        <div class="sc3img1">
-          <p>Նաև նախատեսված է կառուցել շենք Ջրվեժ համայնքի Ջրվեժ 17-րդ փողոց 6/8 հասցեում: </p>
-          <img src="IMG_5664.JPG">
-          <img src="IMG_5661.JPG">          
-        </div>
-        <div class="section4" id="section4">
+      <div class="line"></div>
+      <div class="img-section" id="section2">
+        <div class="img1">
+          <img src="main.jpg">
           <h3>Մեր Մասին</h3>  
-          <div class="sc4sc1">
-            <div class="sc4div1">
-              <p class="sc4h1"><b>Պատմություն</b></p>
-              <p class="a">Սյուզաննա շինարարական կազմակերպությունը հիմնադրվել է 1996 թվականին և ի սկզբանե մասնագիտացել է բետոնի և պեմզաբլոկների արտադրության մեջ։ Տարիների ընթացքում կազմակերպությունը զարգացրել է իր գործունեությունը և ձեռք բերել լայն փորձ շինարարական ոլորտում։</p>
-            </div>
-            <div class="sc4div2">
-              <p class="sc4h2"><b>Աշխատանքներ</b></p>
-              <p class="b"> Սյուզաննա կազմակերպությունը միշտ պատրաստ է կատարել նոր նախագծեր՝ պահելով բարձր որակական չափանիշներ և ստեղծելով հարմարավետ ու ֆունկցիոնալ բնակելի և աշխատանքային տարածքներ։ </p>
-            </div>
+          <p >«Ալարեքս» ՍՊԸ-ն հիմնադրվել է 1998 թվականին և զբաղվում է արտադրական և բնակելի շինությունների կառուցապատման աշխատանքներով: Ընկերության գործունեության հիմնական ժամանակագրությունը հետևյալն է.</p>
+        </div>
+        <div class="img2">
+          <img src="pic2.jpg">
+          <h3>Կատարված Աշխատանքներ</h3>  
+          <div class="alarex-time">
+            <p> • 1998-2001 թթ. - Արտադրամասերի կառուցում Տավուշի մարզում:</p>
+            <p> • 2002-2006 թթ. - Թաունհաուսների կառուցում Երևանի մերձակա համայնքներում:</p>
+            <p> • 2006-2007 թթ. - Ջրամատակարարման համակարգերի կառուցում Եղեգնաձոր քաղաքում:</p>
+            <p> • 2009-2011 թթ. - Շենքերի կառուցում Գյումրիում:</p>
+            <p> • 2011-2013 թթ. - Կառավարական առանձնատների հիմնանորոգում:</p>
+            <p> • 2014-2020 թթ. - Տարբեր շինարարական աշխատանքներ:</p>
+            <p> • 2022-2024 թթ. - «Սանրայզ ռեզիդենտ» բնակելի համալիրի կառուցում:</p>
           </div>
-        <div class="sc4sc2">
-            <p class="sc4h3"><b>Փորձ</b></p>
-            <p class="c">Մեր ընկերությունը առաջարկում է թաունհաուսների և բարձրահարկ շենքերի կառուցում՝ համադրելով ժամանակակից տեխնոլոգիաները և բարձրորակ նյութերը։ Մեր մասնագետների թիմը ունի լայնածավալ փորձ և բարձր որակավորում, ինչը թույլ է տալիս իրականացնել որակյալ աշխատանքներ ճիշտ ժամանակին։</p>
-          </div>
-          <p>Բետոն է մատակարարվել բազմաթիվ բազմահարկ շենք֊շինությունների, ինչպես նաև՝</p>
         </div>
-      <div class="sc4sc3">
-        <div>
-          <p>ՀՀ ՊՆ</p>
-          <img src="beton/20180525051415minoborona.jpg">
-        </div>
-        <div>
-          <p>ԱՄՆ դեսպանատուն.</p>
-          <img src="beton/ամն դեսպանատուն.jpg">
-        </div>
-        <div>
-          <p>Ջրաշխարհ</p>
-          <img src="beton/WaterWorld_Yerevan.jpg">
-        </div>
+        <div class="img3">
+          <img src="pic1.jpg">
+          <h3>Ընթացքում</h3>  
+          <p>Ներկայումս «Ալարեքս» ՍՊԸ-ն զբաղվում է «Սփյուռ» բնակելի համալիրի կառուցմամբ, որը բաղկացած է 4 մասնաշենքերից։
         </div>
       </div>
-       <div class="footer" id="section5">
-        <p class="contact">Կապ</p>
-          <div class="footer1">
-          <div class="info">
-            <p><b>Bagrevand 17th Street, 6/1 Village of Jrvezh, Kotayq Region</b></p>
-            <p class="phone"><b> +37491400502</b></p>
-            <p><b>syuzik95@mail.ru</b></p>
-          </div>
-          <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3049.8715730507965!2d44.50734277661319!3d40.14514437148454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abc084553f74d%3A0x7aad31c6b3f43192!2zMjIsINSx1oDWgdWh1a3VqyDVutW41bLVuNW_1aEsINS11oDWh9Wh1bY!5e0!3m2!1shy!2sam!4v1722264184936!5m2!1shy!2sam" 
-              width="350vw"
-              height="250vh"
-              style="border:0;" 
-              allowfullscreen="" 
-              loading="lazy" 
-              referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-          </div>
-         </div>  
+      <div class="footer" id="section3">
+        <div class="info">
+          <p><b>Էլ Փոստ - </b> 077ashot@mail.ru</p>
+          <p class="phone"><b>Հեռախոսահամար </b> +374 (94) 33 - 83 - 12</p>
+          <p><b>Իրավաբանական հասցե - </b> ՀՀ․ ք․ Երևան, Երվ․ Քոչար փ․ 27շ․ բն․ 22</p>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3049.8715730507965!2d44.50734277661319!3d40.14514437148454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abc084553f74d%3A0x7aad31c6b3f43192!2zMjIsINSx1oDWgdWh1a3VqyDVutW41bLVuNW_1aEsINS11oDWh9Wh1bY!5e0!3m2!1shy!2sam!4v1722264184936!5m2!1shy!2sam" 
+            width="300vh"
+            height="205vh"
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
       </div>
     </div>
   </div>
